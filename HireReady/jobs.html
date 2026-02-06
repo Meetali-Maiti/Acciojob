@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="Width=device-width,initial-scale=1.0"/>
+    <title>Jobs- HireReady</title>
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container nav-flex">
+        <div class="logo">HireReady</div>
+        <nav class="nav-links">
+          <a href="index.html" class="btn btn-outline">Home</a>
+          <a href="jobs.html" class="btn btn-outline">Jobs</a>
+          <a href="company.html" class="btn btn-outline">Companies</a>
+          <a href="auth.html" class="btn btn-outline">Login</a>
+        </nav>
+      </div>
+    </header>
+<br>
+    <section class="jobs-page container">
+      <aside class="filters card">
+        <h3>Filter Jobs</h3>
+        <div class="grid-3">
+        <div class="filter-group">
+          <h4>Location</h4>
+          <label><input type="checkbox">Remote</label><br>
+          <label><input type="checkbox">Bangalore</label><br>
+          <label><input type="checkbox">Delhi</label>
+        </div>
+        <div class="filter-group">
+          <h4>Job Type</h4>
+          <label><input type="checkbox">Full Time</label><br>
+          <label><input type="checkbox">Internship</label>
+        </div>
+        <div class="filter-group">
+          <h4>Experience</h4>
+          <label><input type="radio" name="exp">0-1 Years</label><br>
+          <label><input type="radio"  name="exp">2-4 Years</label><br>
+          <label><input type="radio"  name="exp">5+ Years</label>
+        </div>
+        </div>
+      </aside>
+      <br>
+      <main class="job-grid">
+        <div class="grid-3">
+        <div class="card job-card">
+          <h2>Frontend Developer</h2>
+          <b>
+          <p class="company-name">Google - Bangalore</p>
+          <p class="salary">₹10-15 LPA</p>
+          <div class="tags">
+            <span class="badge">HTML &nbsp;</span>
+            <span class="badge"> CSS &nbsp;</span>
+            <span class="badge"> JavaScript </span>
+          </div>
+          </b>
+          <a href="job-detail.html" class="btn btn-primary">View Details</a>
+        </div>
+        
+        <div class="card job-card">
+          <h2>Backend Developer</h2>
+          <b>
+          <p class="company-name">Amazon Remote</p>
+          <p class="salary">₹12-18 LPA</p>
+          <div class="tags">
+            <span class="badge">MySQL&nbsp; </span>
+            <span class="badge"> Spring&nbsp; </span>
+            <span class="badge"> Java</span>
+          </div>
+          </b>
+          <a href="job-detail1.html" class="btn btn-primary">View Details</a>
+        </div>
+
+        <div class="card job-card">
+          <h2>Data Analyst </h2>
+          <b>
+          <p class="company-name">Google - Bangalore</p>
+          <p class="salary">₹8-12 LPA</p>
+          <div class="tags">
+            <span class="badge">SQL&nbsp; </span>
+            <span class="badge"> Excel&nbsp; </span>
+            <span class="badge"> Python</span>
+          </div>
+          </b>
+          <a href="job-detail2.html" class="btn btn-primary">View Details</a>
+        </div>
+        </div>
+      </main>
+    </section>
+<BR>
+    <section class="pagination  container">
+      <a href="#" class="btn btn-outline">Prev</a>
+      <span> Page 1 of 5 </span>
+      <a href="#" class="btn btn-outline">Next</a>
+    </section>    
+    
+    <footer class="footer">
+      <div class="container footer-flex">
+        <p>©2026 HireReady. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Support</a> 
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
